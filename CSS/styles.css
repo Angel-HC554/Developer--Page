@@ -25,6 +25,37 @@ body{
 
 }
 
-.Navegacion-principal{
+.navegacion-principal{
     background-color: var(--secundario);
+}
+
+.contenedor{
+    width: 120rem;
+    /*una manera de poner los margenes en 4 propiedades
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;   */
+    /* margin: 0 auto 0 auto; tomando las posiciones de un reloj*/
+    margin: 0 auto; /* el primer valor es del top_botton y el segundo de
+    right_left */
+
+}
+ai
+.nav-bg{ 
+    background-color: var(--secundario);
+}
+
+/* IMPORTANTE display block es horiontal y el inline es horiontal
+igual flecs bocs osea contenedor*/
+
+
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal a{
+    
+    color: var(--blanco);
+    text-decoration:none;
 }
