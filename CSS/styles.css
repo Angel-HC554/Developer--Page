@@ -51,11 +51,21 @@ igual flecs bocs osea contenedor*/
 
 
 .navegacion-principal{
-    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* Justify-content es para las filas 
+    align-items es para columnas(flex-direction)*/
+    font-size: 2rem;
+    font-weight: bold; /*negritas=bold*/
+}
+
+.navegacion-principal a:hover{ /* Animacion para seleccionar el nav*/
+    background-color:var(--primario); /*cambia a primario el fondo*/
+    color: var(--oscruro);
 }
 
 .navegacion-principal a{
-    
+    padding: 1rem;
     color: var(--blanco);
     text-decoration:none;
 }
